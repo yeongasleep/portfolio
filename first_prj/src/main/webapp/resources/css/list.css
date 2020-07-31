@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:80%;
+    margin:40px auto;
+    position:relative;
+}
+
+.container h1 {
+    color:#333;
+    letter-spacing: 2px;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.container .write_btn {
+    position: relative;
+    padding:10px 20px;
+    width:150px;
+    font-size:20px;
+    border:none;
+    background:rgba(74, 77, 119,0.4);
+    border-radius:10px;
+    cursor:pointer;
+    color:#333;
+    transition:0.7s;
+}
+
+.container .write_btn:hover {
+    background:rgba(87, 67, 67,0.2);
+}
+
+.container table {
+    margin-top:20px;
+    width:100%;
+}
+
+table thead th {
+    background : beige;
+}
+
+table tbody td {
+    text-align:center;
+}

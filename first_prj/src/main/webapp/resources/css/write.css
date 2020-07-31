@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h3 {
+    font-size:24px;
+    padding:20px;
+}
+
+.container {
+    width:60%;
+    margin:0 auto;
+    margin-top:30px;
+    
+}
+
+.container .block {
+    padding: 10px;
+}
+
+.container label {
+    display:inline-block;
+    width:10%;
+    text-align:center;
+}
+
+.container p {
+    width:10%;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.container input, textarea{
+    width:70%;
+}
+
+.container button {
+    border:none;
+    padding:20px 40px;
+    margin:20px;
+    color:rgb(85, 49, 49);
+    font-size:24px;
+    border-radius:10px;
+    cursor:pointer;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD 선언 -->
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapperlist">
+
+	<select id="listAll" resultType="com.kang.firstboard.vo.BoardVO">
+		select * from first_board
+	</select>
+	
+	<insert id="insert_data">
+		insert into first_board(writer,title,content)
+		values(#{writer},#{title},#{content})
+	</insert>
+	
+	<select id="read" parameterType="int" resultType="com.kang.firstboard.vo.BoardVO">
+		select * from first_board where bno = #{bno}
+	</select>
+
+	<update id="update_data">
+		update first_board set writer = #{writer}, title = #{title}, content = #{content} 
+		where bno = #{bno}
+	</update>
+
+</mapper>
