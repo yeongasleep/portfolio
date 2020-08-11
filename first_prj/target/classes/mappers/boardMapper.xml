@@ -24,4 +24,7 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		where bno = #{bno}
 	</update>
 
+	<delete id="delete_data" parameterType="int">
+		delete from first_board where bno = #{bno}
+	</delete>
 </mapper>

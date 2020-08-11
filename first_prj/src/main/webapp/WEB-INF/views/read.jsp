@@ -27,5 +27,6 @@
         </div>
         <a href="update?bno=${list.bno}"><button>수정하기</button></a>
         <a href="list">돌아가기</a>
+        <a href="delete?bno=${list.bno}"><button>삭제하기</button></a>
 </body>
 </html>

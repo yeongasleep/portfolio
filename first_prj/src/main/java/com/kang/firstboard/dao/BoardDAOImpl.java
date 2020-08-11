@@ -34,6 +34,11 @@ public class BoardDAOImpl implements BoardDAO {
 	public void update(BoardVO boardVO) throws Exception {
 		sqlSession.update("mapperlist.update_data",boardVO);
 	}
+
+	@Override
+	public void delete(int bno) throws Exception {
+		sqlSession.delete("mapperlist.delete_data",bno);
+	}
 	
 	
 

@@ -141,6 +141,11 @@
 			<artifactId>spring-test</artifactId>
 			<version>4.3.18.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.18.Final</version>
+		</dependency>
 	</dependencies>
     <build>
         <plugins>
